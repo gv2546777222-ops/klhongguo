@@ -1,6 +1,14 @@
 # 考拉红果剧场
 
-Android 最新版：**1.3.9（45）**。iOS 历史版：**1.0.2**。
+Android 最新版：**1.3.9（45）**。iOS 最新版：**1.4.0（40）**。
+
+## iOS 1.4.0
+
+底部导航改为“我的”，移除播放页右上角清屏快捷按钮，重新整理评论正文、点赞、回复和输入栏。包含截至 1.3.8 的播放与兼容片源修复。
+
+[下载待签名 IPA](https://github.com/gv2546777222-ops/klhongguo/releases/download/v1.4.0/Hongguo-iOS-1.4.0-unsigned.ipa) · [完整 iOS 源码](https://github.com/gv2546777222-ops/klhongguo/releases/download/v1.4.0/Hongguo-iOS-1.4.0-source.zip) · [发布说明](https://github.com/gv2546777222-ops/klhongguo/releases/tag/v1.4.0) · [SHA256](https://github.com/gv2546777222-ops/klhongguo/releases/download/v1.4.0/SHA256SUMS-iOS-1.4.0.txt)
+
+iOS 15.0+（arm64），需要自行签名。99 项共享测试及 2 项 iOS 模拟器 UI 测试通过；评论截图使用本地示例数据。实体设备、真实账号互动和全部片源未全面验证，完整范围见源码内 docs/VERIFICATION-1.4.0.md。
 
 ## Android 1.3.9
 
