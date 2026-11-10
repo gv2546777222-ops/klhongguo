@@ -1,6 +1,16 @@
 # 考拉红果剧场
 
-iOS 与 Android 统一版本：**1.0.2**。
+Android 最新版：**1.3.9（45）**。iOS 历史版：**1.0.2**。
+
+## Android 1.3.9
+
+启动与返回应用时检查正式更新，有新版自动提示；APK 在应用内下载、显示进度并可取消，校验后调用系统安装界面。播放器设置移除重复选集，底部导航改为“我的”，保留剧情简介展开和播放兼容恢复。
+
+[下载 Android APK](https://github.com/gv2546777222-ops/klhongguo/releases/download/v1.3.9/Hongguo-Android-1.3.9-release.apk) · [完整 Android 源码](https://github.com/gv2546777222-ops/klhongguo/releases/download/v1.3.9/Hongguo-Android-1.3.9-source.zip) · [发布说明](https://github.com/gv2546777222-ops/klhongguo/releases/tag/v1.3.9) · [SHA256](https://github.com/gv2546777222-ops/klhongguo/releases/download/v1.3.9/SHA256SUMS)
+
+沿用原签名，可覆盖安装，Android 8.0+（arm64-v8a / x86_64）。首次安装本版后，后续更新可在应用内完成；首次可能需允许本应用安装更新。114 项共享测试、17 项 Android 仪器测试、6 项 JVM 测试与实际下载验证通过，实体机未验证。完整工程、对应 FFmpeg 源码和许可在源码 ZIP 内。
+
+以下保留历史双端 1.0.2 的下载与说明。
 
 支持剧集搜索、热播推荐、相关季、弹幕、公开评论、前后各两集缓存、自动换季 / 热播续播、账号入口与收藏同步。页面底部可检查本仓库的正式 Releases 更新。
 
