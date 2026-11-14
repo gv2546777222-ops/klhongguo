@@ -1,6 +1,21 @@
 # 考拉红果剧场
 
-Android 与 iOS 最新版：**1.4.1（47）**。
+Android 与 iOS 最新版：**1.4.3（49）**。
+
+## Android / iOS 1.4.3（49）
+
+两端同步完整播放签名、空响应短退避与有界互补接口，提供自动 / App / 网页兼容线路。切换保留当前集、进度、倍速和暂停状态，缓存按来源隔离；同画质备用地址与完整时长校验避免把试看当正片。Android 保留已有解码兼容恢复与应用内更新。
+
+| 平台 | 安装包 | 完整源码 |
+| --- | --- | --- |
+| Android 8.0+ / 64 位 | [APK](https://github.com/gv2546777222-ops/klhongguo/releases/download/v1.4.3/Hongguo-Android-1.4.3-release.apk) | [Android 源码](https://github.com/gv2546777222-ops/klhongguo/releases/download/v1.4.3/Hongguo-Android-1.4.3-source.zip) |
+| iOS 15.0+ / arm64 | [待签名 IPA](https://github.com/gv2546777222-ops/klhongguo/releases/download/v1.4.3/Hongguo-iOS-1.4.3-unsigned.ipa) | [iOS 源码](https://github.com/gv2546777222-ops/klhongguo/releases/download/v1.4.3/Hongguo-iOS-1.4.3-source.zip) |
+
+[发布说明](https://github.com/gv2546777222-ops/klhongguo/releases/tag/v1.4.3) · [统一 SHA256](https://github.com/gv2546777222-ops/klhongguo/releases/download/v1.4.3/SHA256SUMS-1.4.3.txt)
+
+Android 沿用原签名，可覆盖安装；iOS 需自行签名。Android 143 项逻辑测试、6 项 JVM、18 项原生仪器测试与构建通过，真实网络完成续播、切集、暂停换线与完整兼容视频定位。iOS 使用已验收的 1.4.3（49）原包，123 项逻辑测试、3 项最终真实 UIKit 播放、2173 项 MP4/CENC 和 URLSession 检查及构建通过。各源码内保留具体证据、诊断复核及限制。
+
+两条线路仍依赖同一上游，间歇空响应可能发生；实体 vivo X200s、实体 iPhone、全部片源和真实账号互动未全面验收。
 
 ## Android / iOS 1.4.1（47）
 
