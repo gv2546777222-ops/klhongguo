@@ -1,6 +1,23 @@
 # 考拉红果剧场
 
-Android 与 iOS 最新版：**1.4.3（49）**。
+Android 与 iOS 最新版：**1.4.4（50）**。
+
+## Android / iOS 1.4.4（50）
+
+同步苹果端最新 V5 播放修复：新播放器接口、设备配置、实际正文与 Field13 / Medusa / Helios 签名，修复旧模型接口空响应。网页兼容旧请求空正文后可有界回退到 V5；进度、暂停状态、画质、完整时长与来源缓存隔离保持原规则。
+
+| 平台 | 安装包 | 完整工程 |
+| --- | --- | --- |
+| Android 8.0+ / 64 位 | [APK](https://github.com/gv2546777222-ops/klhongguo/releases/download/v1.4.4/Hongguo-Android-1.4.4-release.apk) | [Android 工程](https://github.com/gv2546777222-ops/klhongguo/releases/download/v1.4.4/Hongguo-Android-1.4.4-source.zip) |
+| iOS 15.0+ / arm64 | [待签名 IPA](https://github.com/gv2546777222-ops/klhongguo/releases/download/v1.4.4/Hongguo-iOS-1.4.4-unsigned.ipa) | [iOS 工程](https://github.com/gv2546777222-ops/klhongguo/releases/download/v1.4.4/Hongguo-iOS-1.4.4-source.zip) |
+
+[发布说明](https://github.com/gv2546777222-ops/klhongguo/releases/tag/v1.4.4) · [统一 SHA256](https://github.com/gv2546777222-ops/klhongguo/releases/download/v1.4.4/SHA256SUMS-1.4.4.txt)
+
+Android 保持原签名可覆盖安装；iOS 需自行签名。Android 146 项源码测试、6 项 JVM、18 项原生仪器测试与构建通过，真实验证第 60 集播放、拖动续播、自动第 61 集、兼容编码及网页兼容完整视频定位。iOS 采用已验收的 1.4.4（50）原包，126 项源码测试、3 项真实网络原生播放测试与 Release 构建通过；本次核对原包与最终源码一致。
+
+组件来源不同：开源应用代码保持原许可；操作者提供的客户端协议镜像保留原权利，不被重新许可为 GPL，也不主张原权利人已授予公开再分发许可。因此不能将此兼容构建称为全 GPL 的公开实现。来源与权利说明见工程内 LICENSE-NOTICE.md、UPSTREAM.md 和 v5/image-provenance.json。
+
+实体 vivo / iPhone、全部片源与私人账号写入未全面验收；依赖非公开上游协议，仍可能需要后续维护。
 
 ## Android / iOS 1.4.3（49）
 
@@ -71,6 +88,6 @@ iOS 15.0+（arm64），需要自行签名。99 项共享测试及 2 项 iOS 模�
 
 ## 许可与来源
 
-采用 GPL-3.0-only，保留原始项目署名和第三方许可。取源和协议模块参考 [jackotom/hongguo-drama](https://github.com/jackotom/hongguo-drama)，账号 / 收藏协议另参考 [tsukiyo-zero/hongguoTV](https://github.com/tsukiyo-zero/hongguoTV)。完整修订和变更说明见源码包内 vendor/hongguo/UPSTREAM.md。
+应用开源代码采用 GPL-3.0-only，保留原始项目署名和第三方许可；1.4.4 的独立来源协议镜像不被该许可覆盖，详见上述来源与权利说明。取源和协议模块参考 [jackotom/hongguo-drama](https://github.com/jackotom/hongguo-drama)，账号 / 收藏协议另参考 [tsukiyo-zero/hongguoTV](https://github.com/tsukiyo-zero/hongguoTV)。完整修订和变更说明见源码包内 vendor/hongguo/UPSTREAM.md。
 
 本项目为独立客户端。
