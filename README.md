@@ -1,6 +1,21 @@
 # 考拉红果剧场
 
-Android 与 iOS 最新版：**1.4.6（52）**。
+Android 与 iOS 最新版：**1.4.10（56）**。
+
+## Android / iOS 1.4.10（56）
+
+累计同步苹果 **1.4.7–1.4.10**：推荐等待页改为简洁动效，缓存未看候选并提前准备下一条详情和播放地址；滑动确认立即暂停旧视频。停滞先唤醒，再按预算恢复原集与进度；竖屏等比铺满到进度条触控区域顶部；修复浏览两分钟后“加载更多”丢失游标及失败后重试错页。
+
+| 平台 | 安装包 | 完整工程 |
+| --- | --- | --- |
+| Android 8.0+ / 64 位 | [APK](https://github.com/gv2546777222-ops/klhongguo/releases/download/v1.4.10/Hongguo-Android-1.4.10-release.apk) | [Android 工程](https://github.com/gv2546777222-ops/klhongguo/releases/download/v1.4.10/Hongguo-Android-1.4.10-source.zip) |
+| iOS 15.0+ / arm64 | [待签名 IPA](https://github.com/gv2546777222-ops/klhongguo/releases/download/v1.4.10/Hongguo-iOS-1.4.10-unsigned.ipa) | [iOS 工程](https://github.com/gv2546777222-ops/klhongguo/releases/download/v1.4.10/Hongguo-iOS-1.4.10-source.zip) |
+
+[发布说明](https://github.com/gv2546777222-ops/klhongguo/releases/tag/v1.4.10) · [统一 SHA256](https://github.com/gv2546777222-ops/klhongguo/releases/download/v1.4.10/SHA256SUMS-1.4.10.txt)
+
+Android 保持原签名可覆盖安装；165 项源码测试、9 项 JVM、21 项原生仪器测试及构建通过。真实视频受控故障验证同集恢复和主动暂停；推荐连续切换、画幅、评论、进度定位、自动下一集、兼容完整视频与目录分页回归通过。iOS 使用苹果端已验收的 1.4.10（56）原包，本轮核对与对应源码一致；145 项源测试及真实播放 / 画幅 / 分页为苹果对话已执行记录。两端仍保留 V5 播放、四导航、近期去重和既有账号功能。
+
+原偶发卡顿未在实体设备自然复现；网络或解码仍可能等待。一次推荐首屏失败经重试成功，实体 vivo / iPhone、所有片源与私人账号写入未全面验收。开源应用代码与独立来源协议镜像的权利区别继续有效，详见下方来源声明与工程内 LICENSE-NOTICE.md / UPSTREAM.md / image-provenance.json。
 
 ## Android / iOS 1.4.6（52）
 
