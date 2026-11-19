@@ -1,6 +1,20 @@
 # 考拉红果剧场
 
-Android 与 iOS 最新版：**1.4.10（56）**。
+Android、iOS 与 macOS 最新版：**1.4.12（58）**。
+
+## Android / iOS / macOS 1.4.12（58）
+
+Android 同步 iOS 桌面客户端短信登录、设备注册、账号会话和额外短信验证；保留网页及二维码登录。
+
+| 平台 | 安装包 | 完整工程 |
+| --- | --- | --- |
+| Android 8.0+ / 64 位 | [APK](https://github.com/gv2546777222-ops/klhongguo/releases/download/v1.4.12/Hongguo-Android-1.4.12-release.apk) | [Android 工程](https://github.com/gv2546777222-ops/klhongguo/releases/download/v1.4.12/Hongguo-Android-1.4.12-source.zip) |
+| iOS 15.0+ / arm64 | [待签名 IPA](https://github.com/gv2546777222-ops/klhongguo/releases/download/v1.4.12/Hongguo-iOS-1.4.12-unsigned.ipa) | [iOS 工程](https://github.com/gv2546777222-ops/klhongguo/releases/download/v1.4.12/Hongguo-iOS-1.4.12-source.zip) |
+| macOS / Apple Silicon | [桌面版](https://github.com/gv2546777222-ops/klhongguo/releases/download/v1.4.12/Hongguo-macOS-1.4.12-arm64.zip) | [macOS 工程](https://github.com/gv2546777222-ops/klhongguo/releases/download/v1.4.12/Hongguo-macOS-1.4.12-source.zip) |
+
+[发布说明](https://github.com/gv2546777222-ops/klhongguo/releases/tag/v1.4.12) · [SHA256 校验](https://github.com/gv2546777222-ops/klhongguo/releases/download/v1.4.12/SHA256SUMS-1.4.12.txt)
+
+Android 保持原签名，可覆盖安装；iOS 需自行签名，macOS 为自签名构建。Android 169 项源码测试、9 项 JVM 测试、22 项模拟器设备测试以及构建和安装启动通过。短信登录使用隔离测试数据，未发送真实短信；实体设备和真实账号未全面验收。苹果端验证记录随源码提供。各组件来源和权利说明见下方许可声明及源码包。
 
 ## Android / iOS 1.4.10（56）
 
