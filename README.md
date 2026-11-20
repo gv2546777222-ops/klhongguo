@@ -1,6 +1,22 @@
 # 考拉红果剧场
 
-Android、iOS 与 macOS 最新版：**1.4.12（58）**。
+Android、iOS 与 macOS 最新版：**1.4.13（59）**。
+
+## Android / iOS / macOS 1.4.13（59）
+
+同步播放修复：使用新的播放取址线路和独立签名，复用已成功的匿名设备会话，并在空响应时有限更新会话和重试。
+
+| 平台 | 安装包 | 完整工程 |
+| --- | --- | --- |
+| Android 8.0+ / 64 位 | [APK](https://github.com/gv2546777222-ops/klhongguo/releases/download/v1.4.13/Hongguo-Android-1.4.13-release.apk) | [Android 工程](https://github.com/gv2546777222-ops/klhongguo/releases/download/v1.4.13/Hongguo-Android-1.4.13-source.zip) |
+| iOS 15.0+ / arm64 | [待签名 IPA](https://github.com/gv2546777222-ops/klhongguo/releases/download/v1.4.13/Hongguo-iOS-1.4.13-unsigned.ipa) | [iOS / macOS 共用工程](https://github.com/gv2546777222-ops/klhongguo/releases/download/v1.4.13/Hongguo-iOS-1.4.13-source.zip) |
+| macOS / Apple Silicon | [桌面版](https://github.com/gv2546777222-ops/klhongguo/releases/download/v1.4.13/Hongguo-macOS-1.4.13-arm64.zip) | [iOS / macOS 共用工程](https://github.com/gv2546777222-ops/klhongguo/releases/download/v1.4.13/Hongguo-iOS-1.4.13-source.zip) |
+
+[发布说明](https://github.com/gv2546777222-ops/klhongguo/releases/tag/v1.4.13) · [SHA256 校验](https://github.com/gv2546777222-ops/klhongguo/releases/download/v1.4.13/SHA256SUMS-1.4.13.txt)
+
+Android 保持原签名；iOS 需自行签名，macOS 为自签名构建。Android 175 项源码测试、9 项 JVM 测试、22 项模拟器原生测试和安装启动通过，包含真实视频播放及恢复；iOS 三部短剧实播、定位和续播验证见源码记录。macOS 本次完成构建和签名校验，未单独进行真实播放验收。
+
+上游首次取址仍可能偶发空响应，失败可重试；实体手机和所有片源未全面验证。组件来源和权利说明见下方许可声明及源码包。
 
 ## Android / iOS / macOS 1.4.12（58）
 
