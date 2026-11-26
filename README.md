@@ -1,6 +1,16 @@
 # 考拉红果剧场
 
-Android、iOS 与 macOS 最新版：**1.4.13（59）**。
+Android 最新版：**1.4.15（61）**。iOS 与 macOS 最新版：**1.4.13（59）**。
+
+## Android 1.4.15（61）
+
+修复播放接口空响应，更新手机播放取址线路。Android 8.0+，支持 arm64-v8a / x86_64。
+
+[下载 Android APK](https://github.com/gv2546777222-ops/klhongguo/releases/download/v1.4.15/Hongguo-Android-1.4.15-release.apk) · [Android 源码](https://github.com/gv2546777222-ops/klhongguo/releases/download/v1.4.15/Hongguo-Android-1.4.15-source.zip) · [发布说明](https://github.com/gv2546777222-ops/klhongguo/releases/tag/v1.4.15) · [SHA256 校验](https://github.com/gv2546777222-ops/klhongguo/releases/download/v1.4.15/SHA256SUMS-1.4.15.txt)
+
+**本版使用本机测试签名，与此前 GitHub 正式版签名不同，无法覆盖安装此前正式版。** 卸载原版会删除本地数据；可覆盖同一本机签名的 1.4.14。
+
+178 项源码测试、类型检查、9 项 Android 单元测试和 Release 构建通过。Android 36 x86_64 模拟器实测两部用户反馈剧集的播放，最终安装包覆盖安装后复验一部。实体手机和全部片源尚未全面验证。
 
 ## Android / iOS / macOS 1.4.13（59）
 
